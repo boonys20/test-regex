@@ -9,9 +9,21 @@ Write a program to detect and check the names of AWS S3 buckets following the sp
 - Bucket names must not start with the prefix xn--.
 - Bucket names must not end with the suffix -s3alias
 
+The following example bucket names are valid and follow the recommended naming guidelines:
+- docexamplebucket1
+- blog-delivery-march-2020
+- my-hosted-content
+
 ## Examples IaC Configuration Files
 
 ```hcl
+
+rule "aws_s3_bucket_name" {
+  enabled = true
+  regex = "xxxxxxx"
+  prefix = "my-org"
+}
+
 resource "aws_s3_bucket" "foo" {
   bucket = "foo"
 }
