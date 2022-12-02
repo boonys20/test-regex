@@ -5,9 +5,6 @@
 Load balancer
 The load balancing component, Elastic Load Balancing (ELB) service, helps to enhance the efficiency of your application and server. ELB spreads the traffic to web services to improve the performance of your workloads. The traffic is then spread to EC2 instances over multiple zones. Elastic Load Balancing can grow and shrink according to the traffic conditions. Elastic Load Balancing offers four types of load balancers that all feature the high availability, automatic scaling, and robust security necessary to make your applications fault tolerant. 
 
-Amazon Cloud Front
-Amazon Cloud Front is responsible for the acceleration of content delivery that is used to deliver a website.  
-
 ### 2. Application Tier
 
 Amazon EC2
